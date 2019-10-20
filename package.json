@@ -1,7 +1,7 @@
 {
   "name": "paper-kit-react",
   "homepage": "https://yeevon.github.io/GRA_Reunion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "classnames": "2.2.6",

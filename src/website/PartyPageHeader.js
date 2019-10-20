@@ -35,7 +35,8 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>GRA Ikeja Reunion</h1>
+            <h1>GRA, Ikeja</h1>
+            <h2>Reunion</h2>
             <h3>Location: Atlanta, GA</h3>
             <h3>Date: Summer 2020</h3>
             <h4>Additional Details to Follow </h4>
