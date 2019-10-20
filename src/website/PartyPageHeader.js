@@ -40,23 +40,24 @@ function LandingPageHeader() {
             <h3>Location:&nbsp;
               <a href="https://goo.gl/maps/xaUodxUGJa5HVNo99" target="_blank">
                 Atlanta, GA&nbsp;
-                <i class="fa fa-map-marker" />
+                <i className="fa fa-map-marker" />
               </a>
             </h3>
             <h3>Date: Summer 2020</h3>
             <h4>Additional Details to Follow </h4>
             <br />
             <div className="buttons">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_donations" />
-            <input type="hidden" name="business" value="delimajm@gmail.com" />
-            <input type="hidden" name="item_name" value="testbutton for website" />
-            <input type="hidden" name="currency_code" value="USD" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-            </form>   
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="delimajm@gmail.com" />
+                <input type="hidden" name="item_name" value="testbutton for website" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                <img src={require("assets/img/giphy.gif")} />
+              </form>   
             </div>
-          </div>
+            </div>
         </Container>
       </div>
     </>
