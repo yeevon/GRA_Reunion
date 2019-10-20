@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GRA_Reunion/precache-manifest.77829cb7f99e2150ef0c1719fae15c37.js"
+  "/GRA_Reunion/precache-manifest.b3b68943bedebdffe9400224d8ce4796.js"
 );
 
 self.addEventListener('message', (event) => {
