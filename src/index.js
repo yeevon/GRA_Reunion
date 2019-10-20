@@ -35,7 +35,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" render={props => <Index {...props} />} />
+      <Route path="/GRA_Reunion" render={props => <Index {...props} />} />
       <Route
         path="/nucleo-icons"
         render={props => <NucleoIcons {...props} />}
@@ -52,7 +52,7 @@ ReactDOM.render(
         path="/register-page"
         render={props => <RegisterPage {...props} />}
       />
-      <Redirect to="/index" />
+      <Redirect to="/GRA_Reunion" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
