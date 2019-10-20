@@ -35,9 +35,10 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>GRA Reunion Party 2020!!</h1>
-            <h3>Location: Somewhere in Atlanta</h3>
-            <h3>Date: After Dec. 31, 2019 and before Jan. 1, 2021</h3>
+            <h1>GRA Ikeja Reunion</h1>
+            <h3>Location: Atlanta, GA</h3>
+            <h3>Date: Summer 2020</h3>
+            <h4>Additional Details to Follow </h4>
             <br />
             <div className="buttons">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
