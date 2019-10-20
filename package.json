@@ -14,6 +14,8 @@
     "react-router": "5.0.1",
     "react-router-dom": "5.0.1",
     "react-scripts": "3.0.1",
+    "homepage" : "http://yeevon.github.io/chimos-wTheme",
+    "deploy": "gh-pages -d build",
     "reactstrap": "8.0.0"
   },
   "scripts": {
