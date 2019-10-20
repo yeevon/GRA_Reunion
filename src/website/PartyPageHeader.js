@@ -37,7 +37,12 @@ function LandingPageHeader() {
           <div className="motto text-center">
             <h1>GRA, Ikeja</h1>
             <h2>Reunion</h2>
-            <h3>Location: Atlanta, GA</h3>
+            <h3>Location:&nbsp;
+              <a href="https://goo.gl/maps/xaUodxUGJa5HVNo99" target="_blank">
+                Atlanta, GA&nbsp;
+                <i class="fa fa-map-marker" />
+              </a>
+            </h3>
             <h3>Date: Summer 2020</h3>
             <h4>Additional Details to Follow </h4>
             <br />
